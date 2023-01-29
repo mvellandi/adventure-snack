@@ -1,0 +1,47 @@
+/* This CSS file and its accompanying HTML file have been markedly cleaned from their originally rendered code.
+They demonstrate the media performance before modifications were made and published.
+
+This corresponding media was first retrieved on June 16, 2021 from https://adventuresnack.com/?p=1398 */
+
+body {
+  font-size: 18px;
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+body.single-post {
+  background: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  border: 1px solid #000000;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+article p {
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+article p:first-of-type {
+  margin-top: 0;
+}
+
+article ul {
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.a2a_kit a {
+  transform: scale(1.1);
+  margin-right: 1.1rem;
+}
