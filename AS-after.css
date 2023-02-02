@@ -16,7 +16,8 @@ body {
 
 .single-post {
   background: #ffffff;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 75vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
