@@ -6,8 +6,8 @@ This is a story-page redesign for [Adventure Snack](http://www.adventuresnack.co
 
 [See full project details here](http://www.vellandi.net/projects/adventure-snack)
 
-[Demo: Before](http://mvellandi.github.io/adventure-snack/index-before.html)
+[Demo: Before](http://adventure-snack.vellandi.net/AS-before.html)
 
-[Demo: After](http://mvellandi.github.io/adventure-snack/index-after.html)
+[Demo: After](http://adventure-snack.vellandi.net/AS-after.html)
 
 Code changes before and after modifications, are available to browse in this repo.
