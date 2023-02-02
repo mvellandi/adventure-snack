@@ -11,7 +11,10 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body.single-post {
+/* For demo navigation purposes, an extra div has been added */
+/* body.single-post */
+
+.single-post {
   background: #ffffff;
   min-height: 100vh;
   display: flex;

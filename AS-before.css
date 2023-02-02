@@ -8,9 +8,13 @@ body {
   font-family: "Arial", "Helvetica", sans-serif;
 }
 
-body.single-post {
+/* For demo navigation purposes, slight modifications have been made */
+
+/* body.single-post */
+.single-post {
   background: #ffffff;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 70vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
