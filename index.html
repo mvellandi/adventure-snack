@@ -40,7 +40,7 @@
         <h2 class="text-2xl font-extrabold text-orange-500 md:text-3xl">
           Summary
         </h2>
-        <p class="prose-xl text-slate-900">
+        <p class="prose-xl text-slate-900" style="max-width: 80ch">
           This is a story-page redesign for
           <a
             class="text-blue-600 underline underline-offset-2 font-semibold"
@@ -67,8 +67,15 @@
           Best previewed on a mobile device
         </p>
         <div
-          class="mt-4 flex flex-col gap-6 items-start text-2xl md:mt-4 md:items-center md:gap-10 xl:items-start"
+          class="mt-4 flex flex-col gap-6 items-start text-2xl md:mt-4 md:gap-10s"
         >
+          <style>
+            @media screen and (min-width: 768px) {
+              a {
+                max-width: 390px;
+              }
+            }
+          </style>
           <a
             href="AS-before.html"
             class="inline-flex flex-wrap items-center justify-center font-semibold leading-none select-none py-2 w-full rounded-xl border-2 border-purple-700 bg-purple-100 text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-md sm:w-2/3 md:py-4 md:text-3xl"
